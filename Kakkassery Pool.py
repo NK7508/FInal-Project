@@ -5,7 +5,7 @@ Period: 6
 Features of Game: play 8 ball, 2 player, choose power and angle. Winner decided by normal 8 ball rules
 '''
 
-import pygame, sys, pymunk, random                                   
+import pygame, sys, box2d-py, random                                   
 pygame.init()                                           #initialize game engine
 
 w=1000                                                    #set window size
@@ -106,9 +106,6 @@ solids = [ball1,ball2,ball3,ball4,ball5,ball6,ball7]
 stripes = [ball9,ball10,ball1,ball13,ball14,ball15]
 
 
-
-
-table = pymunk.Space()
 
 
 
